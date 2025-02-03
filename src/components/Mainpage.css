@@ -1,0 +1,407 @@
+/* #root{
+    height: 100vh;
+    width: 100vw;
+    padding:0%;
+} */
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.nav-main{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    padding-top: 20px;
+    
+}
+.name{
+    font-weight: 800;
+    font-style:initial;
+    font-size: x-large;
+    margin-bottom: 0%;
+}
+.btn{
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+}
+.btn:hover{
+    color: blueviolet;
+}
+.fullstack{
+    color: black;
+    font-size:100px;
+    font-weight: bold;
+}
+.Developer{
+    color: blueviolet;
+    font-size:100px;
+    font-weight: bold;
+}
+.bt1{
+    background-color: blueviolet;
+}
+.bt1:hover{
+    border-color: black;
+    color: black;
+}
+.bt2{
+    background-color: white;
+    color: black;
+    border-color: black;
+}
+.bt2:hover{
+    color: blueviolet;
+    border-color: blueviolet;
+}
+p{
+    margin-bottom: 0%;
+    display:flex;
+    align-items: start;
+}
+.buttons{
+    gap: 10px;
+    display: flex;
+    align-items: start;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding-top: 100px;
+    width:640px;
+}
+.ill{
+    height:550px;
+    width:500px;
+    padding-top: 100px;
+}
+.profile{
+    display: flex;  
+    gap:140px;
+    padding-bottom: 72px;
+}
+i{
+    color:black;
+    display: flex;
+    align-items: center;
+}
+.fa-whatsapp:hover{
+    color: green;
+}
+.fa-envelope:hover{
+    color: coral;
+}
+.fa-file-text:hover{
+    color: crimson;
+}
+.fa-file-text{
+    padding-top: 5px;
+}
+.dot{
+    color: blueviolet;
+}
+.hms{
+    width:500px;
+    height:250px;
+    border-radius: 20px;
+    padding-top: 0px;
+}
+.projects{
+    display: flex;
+    align-items: start;
+}
+.p1{
+    display: inline;
+}
+.icons{
+    gap: 25px;
+    display: flex;
+    align-items: start;
+}
+h3{
+    color: rgb(103, 103, 103);
+    font-weight: lighter;
+}
+
+.frame{
+    background-color: blueviolet;
+    color: blueviolet;
+    height:80px;
+    width:8px;
+    display: flex;
+}
+
+.image{
+    height:90px;
+    width:100px;
+}
+.footer1{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+  }
+.heading{
+    display:flex;
+    align-items:self-start;
+}
+.footer2 {
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+  .footer-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    align-items:flex-start;
+  }
+  .footer-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+}
+.skills-achievements-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 20px 0;
+  }
+
+  .skills, .achievements {
+    width: 50%;
+  }
+  .headings{
+    display: flex;
+    justify-content:flex-start;
+    gap:500px;
+  }
+  
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: flex-start;
+  }
+
+  .achievements-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .achievement-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .achievement-item i {
+    color: blueviolet;
+    cursor: pointer;
+  }
+  .projects-container {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 20px;
+    justify-content: center;
+}
+
+.project-box {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    background-image: url("./src/assets/download.jpeg");
+}
+
+.project-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.project-description {
+    font-size: 16px;
+    color: rgb(103, 103, 103);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.slider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-image {
+    width: 100%;
+    height: 230px;
+    border-radius: 10px;
+    object-fit: fill;
+    transition: opacity 0.5s ease-in-out;
+    padding-top: 0px;
+}
+
+.prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0);
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.prev-btn { left: 10px; }
+.next-btn { right: 10px; }
+
+.prev-btn:hover, .next-btn:hover {
+    background: rgba(255, 255, 255, 0.8);
+}
+.About {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 100%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.me {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.5;
+    text-align: justify;
+}
+@media (max-width: 768px) {
+  .nav-main {
+    flex-direction: column;
+    padding-top: 10px;
+  }
+
+  .nav {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .project-box {
+    width: 80%;
+    padding: 30px;
+  }
+
+  .About {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .me {
+    font-size: 16px;
+    max-width: 600px;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .footer-left, .footer-right {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  /* Adjusting icons */
+  .icons {
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .fa-whatsapp, .fa-envelope, .fa-file-text {
+    font-size: 28px;
+  }
+}
+@media (max-width: 768px) {
+    .nav-main {
+      flex-direction: column;
+      padding-top: 10px;
+    }
+  
+    .nav {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    /* Projects container - single column on tablets */
+    .projects-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .project-box {
+      width: 80%;
+      padding: 30px;
+    }
+  
+    .profile {
+      flex-direction: column;
+      align-items: center;
+      gap: 40px;
+    }
+  
+    .me {
+      font-size: 16px;
+      max-width: 600px;
+    }
+  
+    .heading p {
+      font-size: 40px;
+    }
+  
+    .skills-achievements-container {
+      flex-direction: column;
+      gap: 40px;
+    }
+  
+    .skills, .achievements {
+      width: 100%;
+    }
+  
+    .footer-left, .footer-right {
+      width: 100%;
+      text-align: center;
+    }
+  
+    .icons {
+      gap: 15px;
+      justify-content: center;
+    }
+  
+    .fa-whatsapp, .fa-envelope, .fa-file-text {
+      font-size: 28px;
+    }
+  }
+  
