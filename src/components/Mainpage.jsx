@@ -87,7 +87,7 @@ const MainPage = () => {
         <p className="name">
           Saranya Chittiprolu<span className="dot">.</span>
         </p>
-        <nav className="nav gap-5">
+        <nav className="nav">
             <li className="items">
               <button className="btn" onClick={scrollToHome}>Home</button>
             </li>
@@ -142,21 +142,17 @@ const MainPage = () => {
   ))}
 </div>
 <div className="headings">
-      <div className="heading">
-      <p style={{ fontSize: "50px" ,fontWeight:"bold"}}>
-        Skills<span className="dot">.</span>
-      </p>
-      </div>
-      <div className="heading">
-      <p style={{ fontSize: "50px" ,fontWeight:"bold"}}>
-        Achievements<span className="dot">.</span>
-      </p>
-  </div>
+      
+      
 </div>
       
 <div className="skills-achievements-container">
   <div className="skills">
-    
+  <div className="heading">
+      <p style={{ fontSize: "50px" ,fontWeight:"bold"}}>
+        Skills<span className="dot">.</span>
+      </p>
+      </div>
     <div className="skills-grid">
       <div className="skill-item">
         <img src="./src/assets/react.png" className="image" alt="React" />
@@ -199,6 +195,11 @@ const MainPage = () => {
 
   
   <div className="achievements">
+  <div className="heading">
+      <p style={{ fontSize: "50px" ,fontWeight:"bold"}}>
+        Achievements<span className="dot">.</span>
+      </p>
+  </div>
     <div className="achievements-list">
       <div className="achievement-item">
         <p>Recognized by Google Cloud Digital Leader Certification, Google Cloud</p>

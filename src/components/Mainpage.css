@@ -6,7 +6,7 @@
 .nav{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    gap: 25px;
 }
 .nav-main{
     display:flex;
@@ -153,24 +153,26 @@ h3{
     align-items:self-start;
 }
 .footer2 {
-    display: flex;
-    padding-top: 50px;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
-  .footer-left {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    width: 50%;
-    align-items:flex-start;
-  }
-  .footer-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 50%;
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+  align-items: flex-start;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 50%;
 }
 .skills-achievements-container {
     display: flex;
@@ -306,6 +308,7 @@ h3{
   .nav {
     flex-direction: column;
     justify-content: center;
+    gap:3px;
   }
 
   .project-box {
@@ -329,13 +332,7 @@ h3{
     padding: 10px;
   }
 
-  .footer-left, .footer-right {
-    width: 100%;
-    text-align: center;
-    margin-top: 20px;
-  }
-
-  /* Adjusting icons */
+  
   .icons {
     gap: 15px;
     justify-content: center;
@@ -347,16 +344,16 @@ h3{
 }
 @media (max-width: 768px) {
     .nav-main {
-      flex-direction: column;
+      flex-direction: row;
       padding-top: 10px;
     }
   
     .nav {
-      flex-direction: column;
+      flex-direction: row;
       justify-content: center;
+      gap:3px;
     }
   
-    /* Projects container - single column on tablets */
     .projects-container {
       grid-template-columns: 1fr;
     }
@@ -385,15 +382,10 @@ h3{
       flex-direction: column;
       gap: 40px;
     }
-  
     .skills, .achievements {
       width: 100%;
     }
   
-    .footer-left, .footer-right {
-      width: 100%;
-      text-align: center;
-    }
   
     .icons {
       gap: 15px;
@@ -402,6 +394,29 @@ h3{
   
     .fa-whatsapp, .fa-envelope, .fa-file-text {
       font-size: 28px;
+    }
+    .footer2 {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .footer-left, .footer-right {
+      width: 100%;
+      text-align: center;
+      align-items: center;
+    }
+  
+  
+    .footer-left p {
+      font-size: 24px;
+      text-align: center;
+      display: inline;
+    }
+  
+    .footer-left .dot {
+      font-size: 24px;
+      display: inline;
     }
   }
   
