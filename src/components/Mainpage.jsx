@@ -6,32 +6,32 @@ const projects = [
       title: "Online Hospital Management System",
       description: "A web-based system to manage hospital operations, appointments, and patient records.",
       images: [
-        "./src/assets/hms.png",
-        "./src/assets/hm2.png",
-        "./src/assets/hms3.png",
-        "./src/assets/hms4.png",
-        "./src/assets/hms5.png",
+        "https://portfolio-saranya.s3.ap-south-1.amazonaws.com/hms.png",
+        "https://portfolio-saranya.s3.ap-south-1.amazonaws.com/hm2.png",
+        "https://portfolio-saranya.s3.ap-south-1.amazonaws.com/hms3.png",
+        "https://portfolio-saranya.s3.ap-south-1.amazonaws.com/hms4.png",
+        "https://portfolio-saranya.s3.ap-south-1.amazonaws.com/hms5.png",
       ],
     },
     {
       title: "E-Commerce Microservices",
       description: "An online shopping platform built using microservices architecture and Spring Boot.",
       images: [
-        "./src/assets/bill3.jpg",
-        "./src/assets/bill2.jpg",
-        "./src/assets/bill1.jpg",
-        "./src/assets/bill4.jpg",
-        "./src/assets/bill5.jpg",
+        "https://portfolio-saranya.s3.ap-south-1.amazonaws.com/bill3.jpg",
+        "https://portfolio-saranya.s3.ap-south-1.amazonaws.com/bill2.jpg",
+        "https://portfolio-saranya.s3.ap-south-1.amazonaws.com/bill1.jpg",
+        "https://portfolio-saranya.s3.ap-south-1.amazonaws.com/bill4.jpg",
+        "https://portfolio-saranya.s3.ap-south-1.amazonaws.com/bill5.jpg",
       ],
     },
     {
       title: "Travel Booking System",
       description: "A web-based trip planning tool that allows travelers to organize their trips, manage itineraries, and book accommodations with real-time updates.",
       images: [
-        "./src/assets/t1.jpg",
-        "./src/assets/t2.jpg",
-        "./src/assets/t3.jpg",
-        "./src/assets/t4.jpg",
+        "https://portfolio-saranya.s3.ap-south-1.amazonaws.com/t1.jpg",
+        "https://portfolio-saranya.s3.ap-south-1.amazonaws.com/t2.jpg",
+        "https://portfolio-saranya.s3.ap-south-1.amazonaws.com/t3.jpg",
+        "https://portfolio-saranya.s3.ap-south-1.amazonaws.com/t4.jpg",
       ],
     },
     
@@ -118,7 +118,7 @@ const MainPage = () => {
             <button className="bt2" onClick={scrollToProjects}>Browse Projects</button>
           </div>
         </div>
-        <img src="./src/assets/pic1.jpg" className="ill" alt="Profile" />
+        <img src="https://portfolio-saranya.s3.ap-south-1.amazonaws.com/pic1.jpg" className="ill" alt="Profile" />
       </div>
       <div className="heading" id="projects">
       <p style={{ fontSize: "50px",fontWeight:"bold"}}>
@@ -155,39 +155,39 @@ const MainPage = () => {
       </div>
     <div className="skills-grid">
       <div className="skill-item">
-        <img src="./src/assets/react.png" className="image" alt="React" />
+        <img src="https://portfolio-saranya.s3.ap-south-1.amazonaws.com/react.png" className="image" alt="React" />
         <h3>ReactJs</h3>
       </div>
       <div className="skill-item">
-        <img src="./src/assets/html.png" className="image" alt="HTML" />
+        <img src="https://portfolio-saranya.s3.ap-south-1.amazonaws.com/html.png" className="image" alt="HTML" />
         <h3>HTML</h3>
       </div>
       <div className="skill-item">
-        <img src="./src/assets/css.png" className="image" alt="CSS" />
+        <img src="https://portfolio-saranya.s3.ap-south-1.amazonaws.com/css.png" className="image" alt="CSS" />
         <h3>CSS</h3>
       </div>
       <div className="skill-item">
-        <img src="./src/assets/java.png" className="image" alt="Java" />
+        <img src="https://portfolio-saranya.s3.ap-south-1.amazonaws.com/java.png" className="image" alt="Java" />
         <h3>Java</h3>
       </div>
       <div className="skill-item">
-        <img src="./src/assets/python.png" className="image" alt="Python" />
+        <img src="https://portfolio-saranya.s3.ap-south-1.amazonaws.com/python.png" className="image" alt="Python" />
         <h3>Python</h3>
       </div>
       <div className="skill-item">
-        <img src="./src/assets/spring.png" className="image" alt="Spring Boot" />
+        <img src="https://portfolio-saranya.s3.ap-south-1.amazonaws.com/spring.png" className="image" alt="Spring Boot" />
         <h3>SpringBoot</h3>
       </div>
       <div className="skill-item">
-        <img src="./src/assets/aws.png" className="image" alt="AWS" />
+        <img src="https://portfolio-saranya.s3.ap-south-1.amazonaws.com/aws.png" className="image" alt="AWS" />
         <h3>AWS</h3>
       </div>
       <div className="skill-item">
-        <img src="./src/assets/mysql.png" className="image" alt="MySQL" />
+        <img src="https://portfolio-saranya.s3.ap-south-1.amazonaws.com/mysql.png" className="image" alt="MySQL" />
         <h3>SQL</h3>
       </div>
       <div className="skill-item">
-        <img src="./src/assets/github.png" className="image" alt="GitHub" />
+        <img src="https://portfolio-saranya.s3.ap-south-1.amazonaws.com/github.png" className="image" alt="GitHub" />
         <h3>GitHub</h3>
       </div>
     </div>
